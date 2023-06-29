@@ -1,0 +1,141 @@
+.DashboardLineItemDetails {
+  display: inline-block;
+  width: 120px;
+  margin-top: 8px;
+  margin-left: 2px;
+  margin-right: 2px;
+  overflow: hidden;
+}
+
+.DashboardLineItemDetailsMini {
+  margin: auto auto 2px;
+}
+
+.DashboardLineItemDetails .destination-health {
+  margin: auto auto 2px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px;
+  width: 116px;
+  color: #fff;
+
+  -webkit-transition: all 1s linear 0ms;
+  -moz-transition: all 1s linear 0ms;
+  -o-transition: all 1s linear 0ms;
+  transition: all 1s linear 0ms;
+}
+.DashboardLineItemDetailsMini .destination-health {
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 2px 6px;
+  color: #fff;
+  display: inline-block;
+
+  -webkit-transition: all 1s linear 0ms;
+  -moz-transition: all 1s linear 0ms;
+  -o-transition: all 1s linear 0ms;
+  transition: all 1s linear 0ms;
+}
+.DashboardLineItemDetails .destination-health.ok,
+.DashboardLineItemDetailsMini .destination-health.ok,
+.DashboardLineItemDetails .fadingEffect.ok,
+.DashboardLineItemDetailsMini .fadingEffect.ok {
+  background-color: #4BAE4F;
+}
+.DashboardLineItemDetails .destination-health.slow,
+.DashboardLineItemDetailsMini .destination-health.slow,
+.DashboardLineItemDetails .fadingEffect.slow,
+.DashboardLineItemDetailsMini .fadingEffect.slow {
+  background-color: #FFC107;
+}
+.DashboardLineItemDetails .destination-health.delayed,
+.DashboardLineItemDetailsMini .destination-health.delayed,
+.DashboardLineItemDetails .fadingEffect.delayed,
+.DashboardLineItemDetailsMini .fadingEffect.delayed {
+  background-color: #F34235;
+}
+.DashboardLineItemDetails .destination-health.unknown,
+.DashboardLineItemDetailsMini .destination-health.unknown,
+.DashboardLineItemDetails .fadingEffect.unknown,
+.DashboardLineItemDetailsMini .fadingEffect.unknown {
+  background-color: #777;
+}
+
+.DashboardLineItemDetails .direction-text {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 2px;
+}
+.DashboardLineItemDetails .direction-text .direction-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+.DashboardLineItemDetails .direction-text .destination-name {
+  font-size: 8px;
+  font-style: italic;
+}
+.DashboardLineItemDetailsMini .direction-text {
+  display: inline-block;
+  width: 58%;
+  font-size: 12px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+.DashboardLineItemDetailsMini .direction-text .direction-name {
+  font-size: 14px;
+}
+.DashboardLineItemDetailsMini .direction-text .destination-name {
+  font-size: 10px;
+  font-style: italic;
+  padding-left: 2px;
+}
+
+.DashboardLineItemDetails .destination-metric-description-column {
+  float: left;
+  width: 60px;
+}
+.DashboardLineItemDetails .destination-metric-description {
+  text-align: right;
+  font-size: 12px;
+}
+.DashboardLineItemDetails .destination-metric-description-detail {
+  text-align: right;
+  font-size: 10px;
+}
+
+.DashboardLineItemDetails .destination-metric-value-column {
+  float: left;
+  width: 56px;
+  margin-left: 4px;
+}
+.DashboardLineItemDetails .destination-metric-value {
+  text-align: left;
+  font-size: 12px;
+}
+.DashboardLineItemDetails .destination-metric-value-detail {
+  text-align: left;
+  font-size: 10px;
+}
+
+.DashboardLineItemDetails .destination-trend,
+.DashboardLineItemDetailsMini .destination-trend {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin: 0 4px 0 auto;
+}
+.DashboardLineItemDetails .fadingEffect,
+.DashboardLineItemDetailsMini .fadingEffect {
+  position: relative;
+  top: 0; bottom: 0; right: 0;
+  width: 100%;
+}

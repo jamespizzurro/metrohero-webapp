@@ -1,0 +1,20 @@
+<!doctype html>
+<html manifest="index.appcache">
+<head>
+  <script>
+    // our iOS app caches index.html in its browser cache (a different cache from AppCache!) so that it can serve it up offline,
+    // but that version can be out of sync with the version in AppCache, so we need to reload index.html to bypass the browser cache
+    // note that this has the effect of not allowing folks to start using the iOS app if they boot it up while they don't have an Internet connection
+    if (window.localStorage) {
+      if (!window.localStorage.getItem('firstLoad')) {
+        window.localStorage.setItem('firstLoad', 'true');
+        window.parent.window.location.reload(true);
+      } else {
+        window.localStorage.removeItem('firstLoad');
+      }
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>

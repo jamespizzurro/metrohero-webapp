@@ -1,0 +1,13 @@
+.PlaybackControls {
+  position: fixed;
+  bottom: 0;
+  z-index: 3;
+  left: 50%;
+  width: 600px;
+  margin-left: -300px;
+  text-align: center;
+}
+
+.PlaybackControls .disabled {
+  color: rgba(0, 0, 0, 0.298039);
+}

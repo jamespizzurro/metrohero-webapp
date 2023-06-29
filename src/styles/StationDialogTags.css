@@ -1,0 +1,11 @@
+.StationDialogTags {
+  width: 150px;
+  margin-top: 6px;
+  float: left;
+  text-align: left;
+}
+
+.StationDialogTags .clickable {
+  display: inline-block;
+  cursor: pointer;
+}

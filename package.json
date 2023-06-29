@@ -1,0 +1,95 @@
+{
+  "name": "metrohero-webapp",
+  "version": "1.0.0",
+  "description": "An unofficial companion app for WMATA DC Metrorail commuters. Real-time interactive line maps, expanded station train ETAs, and more.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/jpizzurro/metrohero-webapp"
+  },
+  "keywords": [
+    "wmata",
+    "metrorail",
+    "dc metro",
+    "metro hero",
+    "metrohero"
+  ],
+  "scripts": {
+    "stage": "rsync -av --ignore-times --exclude=\".*\" dist/. ../metrohero-server/src/main/webapp"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "author": "James Pizzurro",
+  "bugs": {
+    "url": "https://bitbucket.org/jpizzurro/metrohero-webapp/issues"
+  },
+  "homepage": "https://www.dcmetrohero.com",
+  "dependencies": {
+    "addressbar": "^1.0.3",
+    "babel-polyfill": "^6.26.0",
+    "chart.js": "2.8.0",
+    "create-react-class": "^15.7.0",
+    "google-map-react": "^1.1.6",
+    "immutable": "^3.8.2",
+    "local-storage": "^1.4.2",
+    "lodash": "^4.17.21",
+    "material-ui": "^0.20.2",
+    "moment": "^2.29.1",
+    "node-uuid": "^1.4.8",
+    "papaparse": "^5.3.1",
+    "prop-types": "^15.7.2",
+    "query-string": "^5.1.1",
+    "react": "^17.0.2",
+    "react-addons-shallow-compare": "^15.6.3",
+    "react-chartjs-2": "2.11.2",
+    "react-dom": "^17.0.2",
+    "react-ga4": "^1.4.1",
+    "react-linkify": "^0.2.2",
+    "react-md-spinner": "^1.0.0",
+    "react-motion": "^0.5.1",
+    "react-pure-render-ignore-functions": "NGuldager/react-pure-render-ignore-functions",
+    "react-router-dom": "^5.2.0",
+    "react-svg-pan-zoom": "^2.18.0",
+    "react-swipeable-views": "^0.14.0",
+    "react-tippy": "^1.4.0",
+    "react-ultimate-pagination-material-ui": "^1.2.0",
+    "reflux": "^6.4.1",
+    "reflux-immutable": "^1.0.9",
+    "superagent": "^3.8.3",
+    "viewport-units-buggyfill": "^0.6.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^9.0.0",
+    "babel-plugin-direct-import": "^0.5.0",
+    "babel-plugin-transform-react-constant-elements": "^6.23.0",
+    "babel-plugin-transform-react-inline-elements": "^6.22.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browser-sync": "^2.26.14",
+    "browserify": "^17.0.0",
+    "eslint-plugin-react": "^7.22.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-just-replace": "^1.0.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^3.2.0",
+    "gulp-uglify-es": "^2.0.0",
+    "gulp-util": "^3.0.8",
+    "rimraf": "^3.0.2",
+    "run-sequence": "^2.2.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.1",
+    "yargs": "^16.2.0"
+  }
+}

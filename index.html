@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="A free app for WMATA DC Metrorail commuters. Real-time interactive line maps, expanded station train ETAs, and more." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <meta property="og:image:width" content="279">
+  <meta property="og:image:height" content="279">
+  <meta property="og:url" content="https://dcmetrohero.com">
+  <meta property="og:image" content="https://dcmetrohero.com/images/facebook/og-image.jpg?v=OmyXOvd7JZ">
+
+  <title>MetroHero</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=OmyXOvd7JZ">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=OmyXOvd7JZ">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=OmyXOvd7JZ">
+  <link rel="manifest" href="/manifest.json?v=OmyXOvd7JZ">
+  <link rel="mask-icon" href="/images/safari-pinned-tab.svg?v=OmyXOvd7JZ" color="#3f51b5">
+  <link rel="shortcut icon" href="/favicon.ico?v=OmyXOvd7JZ">
+  <meta name="msapplication-TileColor" content="#603cba">
+  <meta name="theme-color" content="#3f51b5">
+
+  <!-- build:css -->
+  <link rel="stylesheet" href="dist/styles/main.css"/>
+  <!-- endbuild -->
+</head>
+<body>
+<div id="content"></div>
+<script>
+  if (!('serviceWorker' in navigator) && ('applicationCache' in window)) {
+    document.write('<iframe id="applicationCacheIframe" src="index.appcache.html" style="display:none;" height="0" width="0" frameborder="0"><\/iframe>');
+  }
+</script>
+
+<!-- build:js -->
+<script src="dist/js/polyfill.min.js"></script>
+<script src="dist/js/app.js"></script>
+<!-- endbuild -->
+</body>
+</html>

@@ -1,0 +1,8 @@
+.Dashboard {
+  position: absolute;
+  top: 56px;
+  bottom: 0;
+  height: calc(100vh - 56px);
+  width: 100%;
+  text-align: center;
+}

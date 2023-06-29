@@ -1,0 +1,10 @@
+.CircuitMapTrainIcon {
+  position: absolute;
+
+  cursor: pointer;
+
+  -webkit-transition: all 1s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  -moz-transition: all 1s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  -o-transition: all 1s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  transition: all 1s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}

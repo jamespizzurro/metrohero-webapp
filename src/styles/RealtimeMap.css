@@ -1,0 +1,8 @@
+.RealtimeMap {
+  position: absolute;
+  bottom: 0;
+  height: calc(100vh - 56px);
+  width: 100%;
+  top: 56px;
+  overflow: hidden;
+}

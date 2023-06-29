@@ -1,0 +1,8 @@
+.TrainMarker {
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+
+  top: -10px;
+  left: -12px;
+}

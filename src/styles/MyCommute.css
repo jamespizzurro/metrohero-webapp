@@ -1,0 +1,28 @@
+.MyCommute {
+  position: absolute;
+  top: 56px;
+  bottom: 0;
+  height: calc(100vh - 56px);
+  width: 100%;
+}
+
+.MyCommute .saved-trips-container {
+  height: calc(100vh - 128px);
+}
+
+.MyCommute .saved-trips-container .saved-trips-inner-container {
+  display: -webkit-flex;
+  display: flex;
+
+  margin-bottom: 82px;
+  text-align: center;
+
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  -webkit-justify-content: center;
+  justify-content: center;
+
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}

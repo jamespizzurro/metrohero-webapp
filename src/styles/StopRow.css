@@ -1,0 +1,41 @@
+.StopRow {
+  position: relative;
+  height: 24px;
+}
+
+.StopRow .stop-name {
+  float: right;
+  width: 190px;
+  text-align: left;
+  cursor: not-allowed;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+  margin-top: 4px;
+}
+.StopRow .stop-name.clickable {
+  cursor: pointer;
+}
+.StopRow .stop-name.clickable:hover,
+.StopRow .stop-name.clickable:focus {
+  font-weight: 500;
+}
+.StopRow .stop-name.clickable:active {
+  font-weight: 700;
+}
+
+.StopRow .station-problems {
+  position: absolute;
+  z-index: 1;
+  width: 190px;
+  margin-left: 110px !important;
+  margin-top: -16px;
+  text-align: right;
+}
+
+.StopRow .station-problems .clickable {
+  cursor: pointer;
+}
+
+.StopRow .station-problems .not-clickable {
+  cursor: not-allowed;
+}

@@ -1,0 +1,32 @@
+.DashboardHistory {
+  position: absolute;
+  top: 56px;
+  bottom: 0;
+  height: calc(100vh - 56px);
+  width: 100%;
+  text-align: center;
+  overflow: auto;
+}
+
+.inline-field > input {
+  text-align: center;
+}
+.inline-field > div > input {
+  text-align: center;
+}
+
+.no-results {
+  margin: 0 auto;
+}
+
+.line-chart-container::after {
+  content: "dcmetrohero.com";
+  opacity: .25;
+  top: 253px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  pointer-events: none;
+  min-width: 675px;
+}

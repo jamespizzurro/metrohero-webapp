@@ -1,0 +1,11 @@
+.TrainDialogTags {
+  width: 150px;
+  margin-top: 6px;
+  float: left;
+  text-align: left;
+}
+
+.TrainDialogTags .clickable {
+  display: inline-block;
+  cursor: pointer;
+}

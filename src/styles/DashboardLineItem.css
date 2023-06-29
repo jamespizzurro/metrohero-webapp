@@ -1,0 +1,66 @@
+.DashboardLineItem {
+  width: 290px;
+  display: inline-block;
+  margin: 6px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.DashboardLineItem .line-description {
+  padding: 8px;
+}
+
+.DashboardLineItem .line-description.red {
+  background-color: rgba(229, 22, 54, 0.25);
+}
+.DashboardLineItem .line-description.orange {
+  background-color: rgba(246, 135, 18, 0.25);
+}
+.DashboardLineItem .line-description.silver {
+  background-color: rgba(157, 159, 156, 0.25);
+}
+.DashboardLineItem .line-description.blue {
+  background-color: rgba(21, 116, 196, 0.25);
+}
+.DashboardLineItem .line-description.yellow {
+  background-color: rgba(252, 208, 6, 0.25);
+}
+.DashboardLineItem .line-description.green {
+  background-color: rgba(15, 171, 75, 0.25);
+}
+
+.DashboardLineItem .destinations {
+}
+
+.DashboardLineItem .line-item-details-header {
+  width: 50%;
+  display: inline-block;
+  font-size: 12px;
+}
+.DashboardLineItem .line-item-details-header.left {
+  text-align: left;
+}
+.DashboardLineItem .line-item-details-header.right {
+  text-align: right;
+}
+
+.DashboardLineItem .rail-incidents-list {
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.DashboardLineItem .center-icon-container {
+  display: table;
+  margin: 0 auto;
+}
+
+.DashboardLineItem .center-icon-container .center-icon-container-component {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.DashboardLineItem .center-icon-container .center-icon-container-component-icon {
+  display: table-cell;
+  vertical-align: middle;
+  margin-right: 4px;
+}

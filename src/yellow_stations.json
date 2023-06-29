@@ -1,0 +1,310 @@
+{
+  "Stations": [
+    {
+      "Code": "C07",
+      "Name": "Pentagon",
+      "StationTogether1": "",
+      "StationTogether2": "",
+      "LineCode1": "BL",
+      "LineCode2": "YL",
+      "LineCode3": null,
+      "LineCode4": null,
+      "Lat": 38.869349,
+      "Lon": -77.054013,
+      "Address": {
+        "Street": "2 South Rotary Road",
+        "City": "Arlington",
+        "State": "VA",
+        "Zip": "22202"
+      }
+    },
+    {
+      "Code": "C08",
+      "Name": "Pentagon City",
+      "StationTogether1": "",
+      "StationTogether2": "",
+      "LineCode1": "BL",
+      "LineCode2": "YL",
+      "LineCode3": null,
+      "LineCode4": null,
+      "Lat": 38.863045,
+      "Lon": -77.059507,
+      "Address": {
+        "Street": "1250 South Hayes St.",
+        "City": "Arlington",
+        "State": "VA",
+        "Zip": "22202"
+      }
+    },
+    {
+      "Code": "C09",
+      "Name": "Crystal City",
+      "StationTogether1": "",
+      "StationTogether2": "",
+      "LineCode1": "BL",
+      "LineCode2": "YL",
+      "LineCode3": null,
+      "LineCode4": null,
+      "Lat": 38.85779,
+      "Lon": -77.050589,
+      "Address": {
+        "Street": "1750 South Clark St.",
+        "City": "Arlington",
+        "State": "VA",
+        "Zip": "22202"
+      }
+    },
+    {
+      "Code": "C10",
+      "Name": "Ronald Reagan Washington National Airport",
+      "StationTogether1": "",
+      "StationTogether2": "",
+      "LineCode1": "BL",
+      "LineCode2": "YL",
+      "LineCode3": null,
+      "LineCode4": null,
+      "Lat": 38.852985,
+      "Lon": -77.043805,
+      "Address": {
+        "Street": "2400 S. Smith Blvd.",
+        "City": "Arlington",
+        "State": "VA",
+        "Zip": "22202"
+      }
+    },
+    {
+      "Code": "C12",
+      "Name": "Braddock Road",
+      "StationTogether1": "",
+      "StationTogether2": "",
+      "LineCode1": "BL",
+      "LineCode2": "YL",
+      "LineCode3": null,
+      "LineCode4": null,
+      "Lat": 38.814009,
+      "Lon": -77.053763,
+      "Address": {
+        "Street": "700 N. West St.",
+        "City": "Alexandria",
+        "State": "VA",
+        "Zip": "22301"
+      }
+    },
+    {
+      "Code": "C13",
+      "Name": "King St-Old Town",
+      "StationTogether1": "",
+      "StationTogether2": "",
+      "LineCode1": "BL",
+      "LineCode2": "YL",
+      "LineCode3": null,
+      "LineCode4": null,
+      "Lat": 38.806474,
+      "Lon": -77.061115,
+      "Address": {
+        "Street": "1900 King Street",
+        "City": "Alexandria",
+        "State": "VA",
+        "Zip": "22301"
+      }
+    },
+    {
+      "Code": "C14",
+      "Name": "Eisenhower Avenue",
+      "StationTogether1": "",
+      "StationTogether2": "",
+      "LineCode1": "YL",
+      "LineCode2": null,
+      "LineCode3": null,
+      "LineCode4": null,
+      "Lat": 38.800313,
+      "Lon": -77.071173,
+      "Address": {
+        "Street": "2400 Eisenhower Avenue",
+        "City": "Alexandria",
+        "State": "VA",
+        "Zip": "22314"
+      }
+    },
+    {
+      "Code": "C15",
+      "Name": "Huntington",
+      "StationTogether1": "",
+      "StationTogether2": "",
+      "LineCode1": "YL",
+      "LineCode2": null,
+      "LineCode3": null,
+      "LineCode4": null,
+      "Lat": 38.793841,
+      "Lon": -77.075301,
+      "Address": {
+        "Street": "2501 Huntington Ave",
+        "City": "Huntington",
+        "State": "VA",
+        "Zip": "22303"
+      }
+    },
+    {
+      "Code": "E01",
+      "Name": "Mt Vernon Sq 7th St-Convention Center",
+      "StationTogether1": "",
+      "StationTogether2": "",
+      "LineCode1": "GR",
+      "LineCode2": "YL",
+      "LineCode3": null,
+      "LineCode4": null,
+      "Lat": 38.905604,
+      "Lon": -77.022256,
+      "Address": {
+        "Street": "700 M St. NW",
+        "City": "Washington",
+        "State": "DC",
+        "Zip": "20001"
+      }
+    },
+    {
+      "Code": "E02",
+      "Name": "Shaw-Howard U",
+      "StationTogether1": "",
+      "StationTogether2": "",
+      "LineCode1": "GR",
+      "LineCode2": "YL",
+      "LineCode3": null,
+      "LineCode4": null,
+      "Lat": 38.912919,
+      "Lon": -77.022194,
+      "Address": {
+        "Street": "1701 8th St. NW",
+        "City": "Washington",
+        "State": "DC",
+        "Zip": "20001"
+      }
+    },
+    {
+      "Code": "E03",
+      "Name": "U Street/African-Amer Civil War Memorial/Cardozo",
+      "StationTogether1": "",
+      "StationTogether2": "",
+      "LineCode1": "GR",
+      "LineCode2": "YL",
+      "LineCode3": null,
+      "LineCode4": null,
+      "Lat": 38.916489,
+      "Lon": -77.028938,
+      "Address": {
+        "Street": "1240 U Street NW",
+        "City": "Washington",
+        "State": "DC",
+        "Zip": "20009"
+      }
+    },
+    {
+      "Code": "E04",
+      "Name": "Columbia Heights",
+      "StationTogether1": "",
+      "StationTogether2": "",
+      "LineCode1": "GR",
+      "LineCode2": "YL",
+      "LineCode3": null,
+      "LineCode4": null,
+      "Lat": 38.928672,
+      "Lon": -77.032775,
+      "Address": {
+        "Street": "3030 14th St. NW",
+        "City": "Washington",
+        "State": "DC",
+        "Zip": "20009"
+      }
+    },
+    {
+      "Code": "E05",
+      "Name": "Georgia Ave-Petworth",
+      "StationTogether1": "",
+      "StationTogether2": "",
+      "LineCode1": "GR",
+      "LineCode2": "YL",
+      "LineCode3": null,
+      "LineCode4": null,
+      "Lat": 38.936077,
+      "Lon": -77.024728,
+      "Address": {
+        "Street": "3700 Georgia Avenue NW",
+        "City": "Washington",
+        "State": "DC",
+        "Zip": "20010"
+      }
+    },
+    {
+      "Code": "E06",
+      "Name": "Fort Totten",
+      "StationTogether1": "B06",
+      "StationTogether2": "",
+      "LineCode1": "GR",
+      "LineCode2": "YL",
+      "LineCode3": null,
+      "LineCode4": null,
+      "Lat": 38.951777,
+      "Lon": -77.002174,
+      "Address": {
+        "Street": "550 Galloway Street NE",
+        "City": "Washington",
+        "State": "DC",
+        "Zip": "20011"
+      }
+    },
+    {
+      "Code": "F01",
+      "Name": "Gallery Pl-Chinatown",
+      "StationTogether1": "B01",
+      "StationTogether2": "",
+      "LineCode1": "GR",
+      "LineCode2": "YL",
+      "LineCode3": null,
+      "LineCode4": null,
+      "Lat": 38.89834,
+      "Lon": -77.021851,
+      "Address": {
+        "Street": "630 H St. NW",
+        "City": "Washington",
+        "State": "DC",
+        "Zip": "20001"
+      }
+    },
+    {
+      "Code": "F02",
+      "Name": "Archives-Navy Memorial-Penn Quarter",
+      "StationTogether1": "",
+      "StationTogether2": "",
+      "LineCode1": "GR",
+      "LineCode2": "YL",
+      "LineCode3": null,
+      "LineCode4": null,
+      "Lat": 38.893893,
+      "Lon": -77.021902,
+      "Address": {
+        "Street": "701 Pennsylvania Avenue NW",
+        "City": "Washington",
+        "State": "DC",
+        "Zip": "20004"
+      }
+    },
+    {
+      "Code": "F03",
+      "Name": "L'Enfant Plaza",
+      "StationTogether1": "D03",
+      "StationTogether2": "",
+      "LineCode1": "GR",
+      "LineCode2": "YL",
+      "LineCode3": null,
+      "LineCode4": null,
+      "Lat": 38.884775,
+      "Lon": -77.021964,
+      "Address": {
+        "Street": "600 Maryland Avenue SW",
+        "City": "Washington",
+        "State": "DC",
+        "Zip": "20024"
+      }
+    }
+  ]
+}

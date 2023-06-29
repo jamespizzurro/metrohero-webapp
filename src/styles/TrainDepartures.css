@@ -1,0 +1,13 @@
+.TrainDepartures {
+  position: absolute;
+  top: 56px;
+  height: calc(100vh - 56px);
+  min-width: 800px;
+  text-align: center;
+  overflow: auto;
+}
+
+.TrainDepartures .data-updated-message {
+  margin-top: 8px;
+  font-size: 12px;
+}

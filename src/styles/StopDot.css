@@ -1,0 +1,19 @@
+.StopDot {
+  display: inline-block;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  margin-left: 75px;
+  cursor: not-allowed;
+  -webkit-transform: translate3d(0, 0, 0);  /* iOS Safari fix: http://stackoverflow.com/a/18272742/1072621 */
+}
+.StopDot.clickable {
+  cursor: pointer;
+}
+.StopDot.clickable:hover,
+.StopDot.clickable:focus {
+  background-color: #ddd !important;
+}
+.StopDot.clickable:active {
+  background-color: #ccc !important;
+}

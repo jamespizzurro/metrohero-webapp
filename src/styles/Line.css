@@ -1,0 +1,46 @@
+.Line {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: calc(100% - 56px);
+  top: 56px;
+}
+
+.Line .colored-line {
+  position: absolute;
+  display: inline-block;
+  height: 100%;
+  width: 24px;
+  margin-left: 84px;
+}
+
+.Line .colored-line.red {
+  background-color: #E51636 !important;
+}
+.Line .colored-line.orange {
+  background-color: #F68712 !important;
+}
+.Line .colored-line.silver {
+  background-color: #9D9F9C !important;
+}
+.Line .colored-line.blue {
+  background-color: #1574C4 !important;
+}
+.Line .colored-line.yellow {
+  background-color: #FCD006 !important;
+}
+.Line .colored-line.green {
+  background-color: #0FAB4B !important;
+}
+
+.Line .colored-line-content {
+  padding: 36px 0 96px !important;
+}
+
+.Line .scrollable-container {
+  position: absolute;
+  height: calc(100% - 142px);
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}

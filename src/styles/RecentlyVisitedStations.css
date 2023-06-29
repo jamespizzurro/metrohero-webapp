@@ -1,0 +1,41 @@
+.RecentlyVisitedStations {
+  margin-bottom: 12px;
+}
+
+.RecentlyVisitedStations .station-list {
+  width: 200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.RecentlyVisitedStations .station-list-divider {
+  width: 200px;
+  margin: 4px auto !important;
+}
+
+.RecentlyVisitedStations .station-list-item {
+  width: 100%;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.RecentlyVisitedStations .station-list-item:hover,
+.RecentlyVisitedStations .station-list-item:focus {
+  background-color: rgba(153, 153, 153, 0.2);
+  border-radius: 2px;
+}
+.RecentlyVisitedStations .station-list-item:active {
+  background-color: rgba(153, 153, 153, 0.4);
+  border-radius: 2px;
+}
+
+.RecentlyVisitedStations .station-list-item .station-list-item-component {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.RecentlyVisitedStations .station-list-item .station-list-item-text {
+  width: 166px;  /* 200 - 2 - 24 - 8 */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,9 @@
+.BetweenStopsRow {
+  position: relative;
+  display: table-cell;
+  height: 52px;
+  width: 75px;
+  vertical-align: middle;
+
+  text-align: right;
+}

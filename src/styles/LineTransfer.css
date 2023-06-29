@@ -1,0 +1,65 @@
+.LineTransfer {
+  position: absolute;
+  top: -41px;
+  width: 110px;
+  z-index: 1;
+  -webkit-transform: translate3d(0, 0, 0);  /* iOS Safari fix: http://stackoverflow.com/a/18272742/1072621 */
+}
+
+.LineTransfer .line {
+  z-index: -999;
+}
+
+.LineTransfer .line.rd {
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #E51636); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(255, 255, 255, 0), #E51636); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(255, 255, 255, 0), #E51636); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #E51636); /* Standard syntax */
+}
+.LineTransfer .line.or {
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #F68712); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(255, 255, 255, 0), #F68712); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(255, 255, 255, 0), #F68712); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #F68712); /* Standard syntax */
+}
+.LineTransfer .line.sv {
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #9D9F9C); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(255, 255, 255, 0), #9D9F9C); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(255, 255, 255, 0), #9D9F9C); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #9D9F9C); /* Standard syntax */
+}
+.LineTransfer .line.bl {
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #1574C4); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(255, 255, 255, 0), #1574C4); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(255, 255, 255, 0), #1574C4); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #1574C4); /* Standard syntax */
+}
+.LineTransfer .line.yl {
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #FCD006); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(255, 255, 255, 0), #FCD006); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(255, 255, 255, 0), #FCD006); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #FCD006); /* Standard syntax */
+}
+.LineTransfer .line.gr {
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #0FAB4B); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(255, 255, 255, 0), #0FAB4B); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(255, 255, 255, 0), #0FAB4B); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #0FAB4B); /* Standard syntax */
+}
+
+.LineTransfer .from {
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+}
+
+.LineTransfer .to {
+  -ms-transform: rotate(315deg); /* IE 9 */
+  -webkit-transform: rotate(315deg); /* Chrome, Safari, Opera */
+  transform: rotate(315deg);
+  margin-top: 58px;
+}
+
+.LineTransfer .to.no-from {
+  margin-top: 82px;
+}

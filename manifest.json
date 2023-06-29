@@ -1,0 +1,35 @@
+{
+  "name": "MetroHero",
+  "short_name": "MetroHero",
+  "theme_color": "#3f51b5",
+  "background_color": "#3f51b5",
+  "display": "standalone",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/images/android/android-launchericon-512-512.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/images/android/android-launchericon-192-192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/android/android-launchericon-144-144.png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/images/android/android-launchericon-96-96.png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/images/android/android-launchericon-72-72.png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/images/android/android-launchericon-48-48.png",
+      "sizes": "48x48"
+    }
+  ],
+  "splash_pages": null
+}

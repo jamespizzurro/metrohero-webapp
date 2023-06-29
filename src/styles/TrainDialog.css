@@ -1,0 +1,70 @@
+.train-dialog-content {
+  padding: 0 14px;
+}
+
+.train-dialog-text {
+  font-size: 12px;
+}
+
+.train-dialog-title {
+  color: #fff;
+  text-align: center;
+  padding: 16px !important;
+  line-height: 26px !important;
+}
+
+.train-dialog-title .metrohero-trains_holding:before {
+  font-size: 32px;
+}
+
+.train-dialog-title .train-dialog-title-primary {
+  font-size: 24px;
+}
+
+.train-dialog-title .train-dialog-title-secondary {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+
+.train-dialog-text .colored-text {
+  font-weight: bold;
+}
+
+.train-dialog-text .colored-text.red {
+  color: #E51636;
+}
+.train-dialog-text .colored-text.orange {
+  color: #F68712;
+}
+.train-dialog-text .colored-text.silver {
+  color: #9D9F9C;
+}
+.train-dialog-text .colored-text.blue {
+  color: #1574C4;
+}
+.train-dialog-text .colored-text.yellow {
+  color: #FCD006;
+}
+.train-dialog-text .colored-text.green {
+  color: #0FAB4B;
+}
+
+.train-dialog-problems-content {
+  padding: 0 8px;
+  overflow: hidden;
+}
+
+.train-dialog-problems-content .train-dialog-problems-content-alerts,
+.train-dialog-problems-content .train-dialog-problems-content-twitter {
+  font-size: 14px;
+}
+
+.train-dialog-problems-content .train-dialog-problems-content-alerts .train-dialog-problems-content-alerts-description,
+.train-dialog-problems-content .train-dialog-problems-content-twitter .train-dialog-problems-content-twitter-description {
+  text-align: center;
+}
+
+.train-dialog-problems-content .train-dialog-problems-content-twitter .train-problem {
+  top: 0 !important;
+}

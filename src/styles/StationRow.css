@@ -1,0 +1,42 @@
+.StationRow {
+  position: relative;
+  height: 24px;
+}
+
+.StationRow .station-name {
+  float: right;
+  max-width: 109px;
+  text-align: right;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+}
+.StationRow .station-name:hover,
+.StationRow .station-name:focus {
+  font-weight: 500;
+}
+.StationRow .station-name:active {
+  font-weight: 700;
+}
+
+.StationRow .station-problems {
+  position: absolute;
+  z-index: 1;
+  width: 144px;
+  margin-left: 156px !important;
+  margin-top: -18px;
+  text-align: right;
+}
+
+.StationRow .station-problems .station-problem {
+  width: 18px !important;
+  height: 18px !important;
+  padding: 0 !important;
+  font-size: 18px !important;
+  cursor: pointer;
+  float: right;
+}
+
+.StationRow .station-problems .clickable {
+  cursor: pointer;
+}

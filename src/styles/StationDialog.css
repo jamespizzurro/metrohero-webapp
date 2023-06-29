@@ -1,0 +1,54 @@
+.station-dialog-title {
+  color: #fff;
+  text-align: center;
+  padding: 16px !important;
+  line-height: 26px !important;
+}
+
+.station-dialog-title .station-dialog-title-primary {
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.station-dialog-content-table {
+  display: table;
+  margin: 0 auto;
+  table-layout: fixed;
+  width: 100%;
+  padding: 4px 0;
+}
+
+.station-dialog-content-table .left-list {
+  display: table-cell;
+  width: 50%;
+  padding: 0 4px;
+  vertical-align: top;
+}
+
+.station-dialog-content-table .right-list {
+  display: table-cell;
+  width: 50%;
+  padding: 0 4px;
+  vertical-align: top;
+}
+
+.station-dialog-problems-content {
+  padding: 0 8px;
+  overflow: hidden;
+}
+
+.station-dialog-problems-content .station-dialog-problems-content-alerts,
+.station-dialog-problems-content .station-dialog-problems-content-twitter {
+  font-size: 14px;
+}
+
+.station-dialog-problems-content .station-dialog-problems-content-alerts .station-dialog-problems-content-alerts-description,
+.station-dialog-problems-content .station-dialog-problems-content-twitter .station-dialog-problems-content-twitter-description {
+  text-align: center;
+}
+
+.station-dialog-problems-content .station-dialog-problems-content-twitter .station-problem {
+  top: 0 !important;
+}

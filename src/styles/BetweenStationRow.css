@@ -1,0 +1,16 @@
+.BetweenStationRow {
+  position: relative;
+  display: table-cell;
+  height: 118px;
+  width: 84px;
+  vertical-align: middle;
+}
+
+.BetweenStationRow.on-left {
+  text-align: right;
+}
+
+.BetweenStationRow.on-right {
+  left: 23px;
+  text-align: left;
+}

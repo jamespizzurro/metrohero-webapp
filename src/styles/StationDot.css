@@ -1,0 +1,17 @@
+.StationDot {
+  display: inline-block;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  margin-left: 84px;
+  cursor: pointer;
+  z-index: 2 !important;
+  -webkit-transform: translate3d(0, 0, 0);  /* iOS Safari fix: http://stackoverflow.com/a/18272742/1072621 */
+}
+.StationDot:hover,
+.StationDot:focus {
+  background-color: #ddd !important;
+}
+.StationDot:active {
+  background-color: #ccc !important;
+}

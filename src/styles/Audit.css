@@ -1,0 +1,14 @@
+.Audit {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: calc(100vh - 56px);
+  top: 56px;
+  text-align: center;
+  overflow-y: scroll; /* prevent horizontal centering of children from being affected by scrollbar appearing/disappearing by just always rendering the scrollbar */
+}
+
+.blink {
+  animation: blinker 0.5s cubic-bezier(0.39,0.575,0.565,1) infinite alternate;
+}
+@keyframes blinker { to { opacity: 0; } }
