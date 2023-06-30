@@ -6,8 +6,8 @@ This project requires a live connection to an instance of [the MetroHero server]
 
 ## Setup
 
-1. Replace the default Google API key `AIzaSyC5JJA1M_5GtVLwvWQzVa-yWkkG-woykZM` in src/components/RealtimeMap.js with your own key. You can follow [this guide](https://developers.google.com/maps/documentation/javascript/get-api-key) to generate your own key. If you don't do this, the 'Live Google Map' feature of the app won't work properly.
-2. Replace the Google Analytics 4 API key `G-7PMPTFBSB3` in src/components/App.js with your own key. You can follow [this guide](https://support.google.com/analytics/answer/9304153) to generate your own key. If you don't do this, you won't be able to collect anonymized data about how users are using the webapp via Google Analytics, e.g. what pages they're visiting and when.
+1. Replace the Google API key `AIzaSyC5JJA1M_5GtVLwvWQzVa-yWkkG-woykZM` in src/components/RealtimeMap.js with your own key. (This key has been deactivated and doesn't do anything.) You can follow [this guide](https://developers.google.com/maps/documentation/javascript/get-api-key) to generate your own key. If you don't do this, the 'Live Google Map' feature of the app won't work properly.
+2. Replace the Google Analytics 4 API key `G-7PMPTFBSB3` in src/components/App.js with your own key. (This key has been deactivated and doesn't do anything.) You can follow [this guide](https://support.google.com/analytics/answer/9304153) to generate your own key. If you don't do this, you won't be able to collect anonymized data about how users are using the webapp via Google Analytics, e.g. what pages they're visiting and when.
 
 ## Developer Setup
 
