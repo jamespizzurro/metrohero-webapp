@@ -12,7 +12,7 @@ This project requires a live connection to an instance of [the MetroHero server]
 ## Developer Setup
 
 1. Globally install [nvm](https://github.com/creationix/nvm)
-2. Globally install node: `nvm install 8.9.4` (you can try newer versions, but this is the version the project started on)
+2. Globally install node: `nvm install 10.24.1` (you can try newer versions, but YMMV)
 3. Globally install gulp (using the same version defined in package.json): `npm install --global gulp-cli@^2.3.0`
 4. (Optional) Globally install [npm-check](https://www.npmjs.com/package/npm-check) to periodically try upgrading packages and whatnot.
 5. Run `npm install` in the project directory to install dependencies. If you get errors, e.g. with a newer version of Node and npm, try `npm install --legacy-peer-deps`.
